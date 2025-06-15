@@ -1,0 +1,17 @@
+MOTORES
+# Configuración de pines (GP10 a GP15)
+PIN_ENA = 10
+PIN_IN1 = 11
+PIN_IN2 = 12
+PIN_ENB = 13
+PIN_IN3 = 14
+PIN_IN4 = 15
+SERVOS
+# Configuración de pines (GP16 a GP18)
+base = PWM(Pin(18))
+hombro = PWM(Pin(17))
+codo = PWM(Pin(16))
+OLED
+# Configuración de pines (GP2 a 3)
+OLED_SDA_PIN = 2
+OLED_SCL_PIN = 3
